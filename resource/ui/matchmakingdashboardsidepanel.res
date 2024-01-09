@@ -36,18 +36,26 @@
 		"image"		"gradient_pure_black"
 	}
 	
-	"Gradient"
+	"InnerGradient"
 	{
 		"ControlName"		"ImagePanel"
-		"fieldName"		"Gradient"
+		"fieldName"		"InnerGradient"
 		"xpos"		"3"
+		"rotation"		"2"
+
+		if_left
+		{
+			"xpos"	"rs1-3"
+			"rotation"		"1"
+		}
+
 		"ypos"		"0"
 		"wide"		"30"
 		"tall"		"f0"
 		"zpos"	"1000"
 		"visible"		"1"
 		"enabled"		"1"
-		"rotation"		"2"
+
 		"proportionaltoparent"	"1"
 		"scaleimage"	"1"
 		"mouseinputenabled"	"0"
@@ -55,18 +63,27 @@
 		"image"		"gradient_pure_black"
 	}
 
-	"GradientRight"
+	"OuterGradient"
 	{
 		"ControlName"		"ImagePanel"
-		"fieldName"		"GradientRight"
+		"fieldName"		"OuterGradient"
 		"xpos"		"rs1"
+		"rotation"		"1"
+
+		if_left
+		{
+			"xpos"	"0"
+			"rotation"		"2"
+		}
+
 		"ypos"		"0"
 		"wide"		"20"
 		"tall"		"f0"
 		"zpos"	"1000"
 		"visible"		"1"
 		"enabled"		"1"
-		"rotation"		"1"
+
+
 		"proportionaltoparent"	"1"
 		"scaleimage"	"1"
 		"mouseinputenabled"	"0"
@@ -80,6 +97,14 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"CloseButton"
 		"xpos"			"rs1"
+		"labelText"		">"
+
+		if_left
+		{
+			"xpos"		"0"
+			"labelText"		"<"
+		}
+
 		"ypos"			"0"
 		"zpos"			"10000"
 		"wide"			"15"
@@ -87,7 +112,7 @@
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"command"		"nav_close"
-		"labelText"		">"
+
 		"textAlignment"	"east"
 		"font"			"HudFontSmallBold"
 
@@ -102,6 +127,14 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"ReturnButton"
 		"xpos"			"3"
+		"labelText"		"<"
+
+		if_left
+		{
+			"xpos"	"rs1-3"
+			"labelText"		">"
+		}
+
 		"ypos"			"0"
 		"zpos"			"10000"
 		"wide"			"20"
@@ -110,6 +143,7 @@
 		"proportionaltoparent"	"1"
 		"command"		"nav_to"
 		"labelText"		"<"
+
 		"textAlignment"	"west"
 		"font"			"HudFontSmallBold"
 
@@ -118,6 +152,22 @@
 
 		"armedFgColor_override"	"Orange"
 	}
+	
+	"MenuBoxBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MenuBoxBG"
+		"xpos"			"1"
+		"ypos"			"0"
+		"zpos"			"-1"
+		"wide"			"420"
+		"tall"			"1000"
+		"visible"		"1"
+		"enabled"		"0"
+		"fillcolor"		"Black"
+		
+	}
+	
 	
 	"BGPanel"
 	{
@@ -128,9 +178,9 @@
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"f-20"
-		"visible"		"0"
+		"visible"		"1"
 		"proportionaltoparent"	"1"
 
-		"border"		"MainMenuBGBorder"
+		"border"		"MenuBoxBG"
 	}
 }

@@ -6,10 +6,10 @@
 	{
 		"fieldName"		"ExpandableList"
 		"xpos"			"r0"
-		"ypos"			"10"
+		"ypos"			"-5"
 		"zpos"			"1001"
 		"wide"			"280"
-		"tall"			"f70"
+		"tall"			"1000"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 	}
@@ -27,7 +27,7 @@
 		"labeltext"		"#TF_Matchmaking_HeaderModeSelect"
 		"textAlignment"	"west"
 		"font"			"HudFontMediumBigBold"
-		"fgcolor_override"	"TanDark"
+		"fgcolor_override"	"TanLight"
 		
 		"mouseinputenabled"	"0"
 	}
@@ -56,7 +56,7 @@
 		"tall"			"298"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
-		"border"		"InnerShadowBorder"
+		"border"		"MenuBoxBG"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"0"
 	}

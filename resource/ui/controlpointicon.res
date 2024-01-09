@@ -22,9 +22,9 @@
 		"xpos"		"0"
 		"ypos"		"0"
 		"zpos"		"4"
-		"wide"		"33"
+		"wide"		"21"
 		"wide_minmode"		"21"
-		"tall"		"33"
+		"tall"		"21"
 		"tall_minmode"		"21"
 		"visible"	"1"
 		"enabled"	"1"
@@ -110,7 +110,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"wrap"			"0"
-		"font"			"ControlPointTimer"
+		"font"			"ControlPointTimerSmaller"
 		"font_minmode"	"ControlPointTimerSmaller"
 	}
 				

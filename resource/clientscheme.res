@@ -231,18 +231,18 @@ Scheme
 		Econ.Dialog.BgColor									"Blank"
 		Econ.Button.BgColor									"TanDark"
 		Econ.Button.FgColor									"TanLight"
-		Econ.Button.ArmedBgColor							"TFOrange"
+		Econ.Button.ArmedBgColor							"Orange"
 		Econ.Button.ArmedFgColor							"TanLight"
-		Econ.Button.DepressedBgColor						"TFOrange"
-		Econ.Button.DepressedFgColor						"Black"
+		Econ.Button.DepressedBgColor						"Orange"
+		Econ.Button.DepressedFgColor						"TanLight"
 		
 		Econ.Button.PresetDefaultColorFg					"TanLight"
 		Econ.Button.PresetArmedColorFg						"TanLight"
 		Econ.Button.PresetDepressedColorFg					"TanLight"
 		
-		Econ.Button.PresetDefaultColorBg					"LighterRed"
-		Econ.Button.PresetArmedColorBg						"LightRed"
-		Econ.Button.PresetDepressedColorBg					"TFOrange"
+		Econ.Button.PresetDefaultColorBg					"Orange"
+		Econ.Button.PresetArmedColorBg						"Orange"
+		Econ.Button.PresetDepressedColorBg					"Orange"
 		
 		Border.Bright					"Blank"		// the lit side of a control
 		Border.Dark						"Black"		// the dark/unlit side of a control
@@ -251,10 +251,10 @@ Scheme
 		Button.TextColor				"TanLight"
 		Button.BgColor					"Black"
 		Button.ArmedTextColor			"TanLight"
-		Button.ArmedBgColor				"TFOrange"
+		Button.ArmedBgColor				"Orange"
 		Button.SelectedTextColor		"TanLight"
 		Button.SelectedBgColor			"TFOrange"
-		Button.DepressedTextColor		"Black"
+		Button.DepressedTextColor		"TanLight"
 		Button.DepressedBgColor			"TFOrange"
 
 		CheckButton.TextColor			"Yellow"

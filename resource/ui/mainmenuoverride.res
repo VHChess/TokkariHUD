@@ -120,6 +120,19 @@
 		}
 	}	
 
+	 "DashboardDimmer"        // allows for clicking off playlist frames
+    {
+        "wide"                "f0"
+        "tall"                "f0"
+        "paintbackground"    "0"
+        "paintborder"        "0"
+        "roundedcorners"    "0"
+        //"defaultBgColor_override"        "0 0 0 255"
+        //"armedBgColor_override"        "255 255 255 255"
+    }
+
+
+
 	"mouseoveritempanel"
 	{
 		"ControlName"	"CItemModelPanel"
@@ -394,7 +407,7 @@
 		"tall"			"1000"
 		"visible"		"1"
 		"enabled"		"0"
-		"fillcolor"		"0 0 0 220"
+		"fillcolor"		"0 0 0 230"
 		
 	}
 	
@@ -2044,12 +2057,12 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ReportPlayerButton"
-		"xpos"			"c-47"
-		"ypos"			"437"
+		"xpos"			"c-24"
+		"ypos"			"105"
 		"zpos"			"11"
-		"wide"			"30"
+		"wide"			"24"
 		"tall"			"25"
-		"visible"		"1"
+		"visible"		"0"
 
 		"navLeft"		"ResumeGameButton"
 		"navRight"		"CallVoteButton"
@@ -2062,12 +2075,12 @@
 			"fieldName"		"SubButton"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"p1"
+			"wide"			"25"
 			"tall"			"25"
 			"autoResize"	"0"
 			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"tabPosition"	"0"
 			"textinsetx"	"100"
 			"use_proportional_insets" "1"
@@ -2078,7 +2091,7 @@
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"RoundedCorners"	"5"
+			"RoundedCorners"	"0"
 			
 			"paintbackground"	"1"
 			
@@ -2114,7 +2127,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CallVoteButton"
 		"xpos"			"c-24"
-		"ypos"			"437"
+		"ypos"			"130"
 		"zpos"			"12"
 		"wide"			"25"
 		"tall"			"25"
@@ -2440,7 +2453,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"StoreHasNewItemsImage"
 		"xpos"			"c-85"
-		"ypos"			"r50"
+		"ypos"			"200"
 		"zpos"			"13"
 		"wide"			"32"
 		"tall"			"32"

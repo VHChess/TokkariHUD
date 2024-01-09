@@ -63,9 +63,9 @@
 			"zpos"			"-1"
 			"wide"			"p1.1"
 			"tall"			"f5"
-			"visible"		"0"
+			"visible"		"1"
 			"PaintBackgroundType"	"2"
-			"border"		"ReplayDefaultBorder"
+			"border"		"MenuBoxBG"
 			"proportionaltoparent"	"1"
 		}
 
@@ -299,7 +299,7 @@
 				"visible"		"1"
 				"proportionaltoparent"	"1"
 
-				"border"		"ReplayDefaultBorder"
+				"border"		"MenuBoxBG"
 			}
 
 			"QueueLogoButton"
@@ -616,8 +616,8 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"armedBgColor_override"		"192 28 0 150"
-			"defaultBgColor_override"	"192 28 0 50"
+			"armedBgColor_override"		"192 28 0 255"
+			"defaultBgColor_override"	"192 28 0 255"
 
 			"defaultFgColor_override" "TanLight"
 			"armedFgColor_override" "TanLight"
@@ -792,8 +792,8 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"armedBgColor_override"		"CreditsGreen"
-			"defaultBgColor_override"	"GreenSolid"
+			"armedBgColor_override"		"Orange"
+			"defaultBgColor_override"	"Black"
 
 			"defaultFgColor_override" "TanLight"
 			"armedFgColor_override" "TanLight"
