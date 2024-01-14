@@ -78,8 +78,27 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"TFFontSmall"
+		"font"					"HudFontSmallest"
 	}
+
+	"KillStreakIcon"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"KillStreakIcon"
+		"xpos"			"63"
+		"xpos_minmode"	"30"
+		"ypos"			"32"
+		"ypos_minmode"	"16"
+		"zpos"			"12"
+		"wide"			"15"
+		"tall"			"15"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/leaderboard_streak"
+		"scaleImage"	"1"
+	}
+
+
 
 	"ItemEffectMeter"
 	{	

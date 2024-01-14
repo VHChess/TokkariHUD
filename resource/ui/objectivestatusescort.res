@@ -54,6 +54,18 @@
 		}		
 	}	
 	
+	
+	"EscortHilightSwoop"
+	{
+		"ControlName" "CControlPointIconSwoop"
+		"fieldName" "EscortHilightSwoop"
+		"xpos" "9999"
+		"alpha" "0"
+}
+	
+	
+	
+	
 	"ProgressBar"
 	{
 		"ControlName"	"CTFHudEscortProgressBar"

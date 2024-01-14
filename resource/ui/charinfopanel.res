@@ -45,18 +45,36 @@
 		"image"			"loadout_header"
 		"tileImage"		"1"
 	}				
+	
+	"CharHeader"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"CharHeader"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-2"
+		"wide"			"10000"
+		"tall"			"150"
+		"visible"		"1"
+		"pinCorner"		"0"
+		"autoResize"	"0"
+		"bgcolor_override"	"46 43 42 255"
+		"PaintBackgroundType"	"2"
+	}
+	
+	
 	"BackgroundFooter"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BackgroundFooter"
 		"xpos"			"0"
 		"ypos"			"420"
-		"zpos"			"1"
+		"zpos"			"-3"
 		"wide"			"f0"
 		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"loadout_bottom_gradient"
+		"fillcolor"			"Black"
 		"tileImage"		"1"
 	}				
 	"FooterLine"
@@ -94,8 +112,8 @@
 			"zpos"			"5"
 			"wide"			"f0"
 			"tall"			"10"
-			"visible"		"0"
-			"enabled"		"0"
+			"visible"		"1"
+			"enabled"		"1"
 			"image"			"loadout_solid_line"
 			"scaleImage"	"1"
 		}				
@@ -136,6 +154,14 @@
 		"Command"		"back"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"border_default"	"MainMenuButtonDefault"
+		"border_armed"		"MainMenuButtonArmed"
+		"paintbackground"	"0"
+		"defaultFgColor_override" "46 43 42 255"
+		"armedFgColor_override" "235 226 202 255"
+		"depressedFgColor_override" "46 43 42 255"
+		
 	}		
 	
 	"NotificationsPresentPanel"

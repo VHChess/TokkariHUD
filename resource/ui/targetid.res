@@ -80,7 +80,7 @@
 		"font_minmode"	"TFFontLarge"
 		"xpos"			"8"
 		"xpos_minmode"	"30"
-		"ypos"			"5"
+		"ypos"			"10"
 		"ypos_minmode"	"5"
 		"zpos"			"1"
 		"wide"			"640"

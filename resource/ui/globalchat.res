@@ -5,8 +5,8 @@
 		"fieldName"				"partychat"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"395"
-		"ypos"					"0"
+		"xpos"					"400"
+		"ypos"					"50"
 		"zpos"					"1001"
 		"wide"					"200"
 		"tall"					"200"
@@ -44,7 +44,7 @@
 		"RoundedCorners"	"0"
 		"font"			"HudFontSmallest"
 		
-		"bgcolor_override"	"0 0 0 50"
+		"bgcolor_override"	"0 0 0 210"
 
 		"pinCorner"		"2"
 		"autoResize"	"1"
@@ -85,8 +85,8 @@
 	{
 		// "ControlName"	"TextEntry"
 		"fieldName"		"chatentry"
-		"xpos"					"6"
-		"ypos"					"rs1+19"
+		"xpos"					"401"
+		"ypos"					"rs1+138"
 		"zpos"			"1"
 		"wide"			"f2"
 		"tall"			"13"

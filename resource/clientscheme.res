@@ -2926,6 +2926,35 @@ Scheme
 			}
 		}
 
+		"TF2Icons"
+		{
+			"1"
+			{
+				"name" 		"TF2 Icons"
+				"tall"		"15"
+				"antialias"	"1"
+			
+			
+			}
+		
+		
+		
+		}
+
+
+		"MatchButtonFont"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"7"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+
+
 		"MMenuPlayListDesc"
 		{
 			"1"
@@ -5851,5 +5880,15 @@ Scheme
 				"range" "0x0000 0x007E"
 			}
 		}
+		
+		"8"
+		{
+			"font" "resource/fonts/TF2Icons.ttf"
+			"name" "TF2 Icons"
+		
+		
+		}
+		
+		
 	}
 }

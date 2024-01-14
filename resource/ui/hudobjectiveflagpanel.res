@@ -5,7 +5,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusFlagPanel"
 		"xpos"				"0"
-		"ypos"				"395"
+		"ypos"				"0"
 		"zpos"				"1"
 		"wide"				"f0"
 		"tall"				"480"
@@ -23,13 +23,13 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"LeftSideBG"
 		"xpos"			"c-140"
-		"ypos"			"r475"	[$WIN32]
+		"ypos"			"r75"	[$WIN32]
 		"ypos"			"r96"	[$X360]
 		"zpos"			"1"
 		"wide"			"280"
 		"tall"			"80"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_bg_left"
 		"scaleImage"	"1"	
 		
@@ -54,13 +54,13 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"RightSideBG"
 		"xpos"			"c-140"
-		"ypos"			"r70"	[$WIN32]
+		"ypos"			"r75"	[$WIN32]
 		"ypos"			"r96"	[$X360]
 		"zpos"			"1"
 		"wide"			"280"
 		"tall"			"80"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_bg_right"
 		"scaleImage"	"1"	
 		
@@ -85,13 +85,13 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"OutlineBG"
 		"xpos"			"c-140"
-		"ypos"			"r475"	[$WIN32]
+		"ypos"			"r75"	[$WIN32]
 		"ypos"			"r96"	[$X360]
 		"zpos"			"2"
 		"wide"			"280"
 		"tall"			"80"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_bg_outline"
 		"scaleImage"	"1"	
 		

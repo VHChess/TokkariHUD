@@ -19,31 +19,32 @@
 		"ControlName"		"Panel"
 		"fieldName"		"TopBar"
 		"xpos"			"0"
-		"ypos"			"0"
-		"tall"			"84"	[$WIN32]
+		"ypos"			"99999999999"
+		"zpos"			"-5"
+		"tall"			"0"	[$WIN32]
 		"tall_minmode"			"20"	[$WIN32]
 		"tall"			"104"	[$X360]		
-		"wide"			"f0"
+		"wide"			"0"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"		"0"
 	}
 	"BottomBar"
 	{
 		"ControlName"	"Frame"
 		"fieldName"		"BottomBar"
-		"xpos"			"0"
+		"xpos"			"99999999"
 		"ypos"			"r70"	[$WIN32]
 		"ypos"			"r90"	[$X360]		
 		"ypos_minmode"	"r20"
-		"tall"			"70"	[$WIN32]
+		"tall"			"0"	[$WIN32]
 		"tall_minmode"	"0"		
 		"tall"			"90"	[$X360]		
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"0"
 		"tabPosition"		"0"
 	}
@@ -51,29 +52,29 @@
 	{
 		"ControlName"		"Panel"
 		"fieldName"		"bottombarblank"
-		"xpos"			"0"
+		"xpos"			"9999999"
 		"ypos"			"r70"	[$WIN32]
 		"ypos"			"r90"	[$X360]		
 		"ypos_minmode"	"r0"
-		"tall"			"70"	[$WIN32]		// this needs to match the size of BottomBar
+		"tall"			"0"	[$WIN32]		// this needs to match the size of BottomBar
 		"tall_minmode"	"0"		
 		"tall"			"90"	[$X360]		
-		"wide"			"f0"
+		"wide"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"visible_minmode"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"tabPosition"		"0"
 	}
 	"ReinforcementsLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ReinforcementsLabel"
-		"xpos"			"450"	[$WIN32]
+		"xpos"			"c-300"	[$WIN32]
 		"xpos_minmode"	"0"
 		"xpos"			"c-200"	[$X360]
-		"ypos"			"420"	[$WIN32]
+		"ypos"			"50"	[$WIN32]
 		"ypos_minmode"	"3"		[$WIN32]
 		"ypos"			"67"	[$X360]
 		"ypos_hidef"	"79"
@@ -120,7 +121,7 @@
 		"font"			"HudFontSmall"
 		"font_hidef"		"HudFontMedium"
 		"xpos"			"r260"	[$WIN32]
-		"ypos"			"16"	[$WIN32]
+		"ypos"			"2"	[$WIN32]
 		"xpos"			"r285"	[$X360]
 		"ypos"			"32"	[$X360]
 		"wide"			"240"	[$WIN32]
@@ -139,10 +140,10 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ClassOrTeamLabel"
-		"xpos"			"675"
+		"xpos"			"600"
 		"xpos_hidef"	"c-65"
 		"xpos_lodef"	"40"
-		"ypos"			"435"
+		"ypos"			"4"
 		"ypos_hidef"	"90"
 		"ypos_lodef"	"30"	
 		"wide"			"170"
@@ -169,8 +170,8 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"SwitchCamModeKeyLabel"
-		"xpos"			"5"		[$WIN32]
-		"ypos"			"10"	[$WIN32]
+		"xpos"			"-25"		[$WIN32]
+		"ypos"			"0"	[$WIN32]
 		"xpos"			"53"	[$X360]
 		"ypos"			"40"	[$X360]
 		"wide"			"60"	[$WIN32]
@@ -191,8 +192,8 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"SwitchCamModeLabel"
-		"xpos"			"80"	[$WIN32]
-		"ypos"			"10"	[$WIN32]
+		"xpos"			"40"	[$WIN32]
+		"ypos"			"0"	[$WIN32]
 		"xpos"			"128"	[$X360]
 		"ypos"			"40"	[$X360]		
 		"wide"			"125"	[$WIN32]
@@ -321,6 +322,8 @@
 		"font_lodef"	"DefaultVerySmall"
 		"wrap"			"1"
 	}
+	
+	
 	"itempanel"
 	{
 		"ControlName"	"CItemModelPanel"
@@ -331,7 +334,7 @@
 		"wide"			"190"
 		"tall"			"100"
 		"visible"		"0"
-		"bgcolor_override"		"255 255 255 0"
+		"bgcolor_override"		"255 255 255 255"
 		"PaintBackgroundType"	"0"
 		
 		"model_ypos"		"10"

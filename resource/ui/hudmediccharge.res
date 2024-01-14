@@ -39,6 +39,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"HudFontSmallest"
+		"fgcolor_override"	"80 200 120 255"
 	}
 
 	"IndividualChargesLabel"
@@ -63,6 +64,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"HudFontSmallest"
+		"fgcolor_override"	"80 200 120 255"
 	}
 	
 	"ChargeMeter"
@@ -84,6 +86,8 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		"fgcolor_override"	"80 200 120 255"
+		"bgcolor_override"	"Black"
 	}		
 
 	"ChargeMeter1"
@@ -105,6 +109,8 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		"bgcolor_override"	"Black"
+		"fgcolor_override"	"80 200 120 255"
 	}
 
 	"ChargeMeter2"
@@ -126,6 +132,8 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		"fgcolor_override"	"80 200 120 255"
+		"bgcolor_override"	"Black"
 	}
 
 	"ChargeMeter3"
@@ -147,6 +155,8 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		"fgcolor_override"	"80 200 120 255"
+		"bgcolor_override"	"Black"
 	}
 
 	"ChargeMeter4"
@@ -168,6 +178,8 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		"fgcolor_override"	"80 200 120 255"
+		"bgcolor_override"	"Black"
 	}
 	
 	"HealthClusterIcon"

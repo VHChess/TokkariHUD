@@ -428,11 +428,11 @@ event HudTournamentSetupPanelClose
 
 event HudMedicCharged
 {
-	Animate	ChargeLabel 	FgColor		"TanLight"		Linear 0.0 0.1
-	Animate	ChargeLabel 	FgColor		"TanDarker"		Linear 0.3 0.4
+	Animate	ChargeLabel 	FgColor		"80 200 120 255"		Linear 0.0 0.1
+	Animate	ChargeLabel 	FgColor		"25 117 55 255"		Linear 0.3 0.4
 	
-	Animate	ChargeMeter 	FgColor		"TanLight"		Linear 0.0 0.1
-	Animate	ChargeMeter 	FgColor		"TanDarker"		Linear 0.3 0.4
+	Animate	ChargeMeter 	FgColor		"80 200 120 255"		Linear 0.0 0.1
+	Animate	ChargeMeter 	FgColor		"25 117 55 255"		Linear 0.3 0.4
 
 	RunEvent HudMedicChargedLoop	0.6
 }
@@ -448,8 +448,8 @@ event HudMedicChargedStop
 	StopEvent HudMedicCharged 0.0
 	StopEvent HudMedicChargedLoop 0.0
 	
-	Animate	ChargeLabel 	FgColor		"TanLight"		Linear 0.0 0.0001
-	Animate	ChargeMeter 	FgColor		"TanLight"		Linear 0.0 0.0001
+	Animate	ChargeLabel 	FgColor		"80 200 120 255"		Linear 0.0 0.0001
+	Animate	ChargeMeter 	FgColor		"80 200 120 255"		Linear 0.0 0.0001
 }
 
 //====================================
@@ -1421,20 +1421,13 @@ event QuestItem_Highlight_Off_Halloween
 
 //--------------------------------------------------------------------------
 event CompetitiveGame_LowerChatWindow
-{
-	Animate HudChat ypos r140 Accel 0 0
-}
+{}
 
 event CompetitiveGame_RestoreChatWindow
-{
-	Animate HudChat ypos 275 Accel 0 0
-}
+{}
 
 event HudTournament_MoveChatWindow
-{
-	RunEvent CompetitiveGame_LowerChatWindow 0
-	RunEvent CompetitiveGame_RestoreChatWindow 10
-}
+{}
 
 //--------------------------------------------------------------------------
 

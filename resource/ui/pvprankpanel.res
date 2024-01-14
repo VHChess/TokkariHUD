@@ -1,5 +1,6 @@
 "Resource/UI/PvPRankPanel.res"
 {
+	
 	"ModelContainer"
 	{
 		"ControlName"	"EditablePanel"
@@ -44,6 +45,8 @@
 
 			"paintbackground"	"0"	
 		}
+
+
 
 		"RankModel"
 		{
@@ -404,7 +407,7 @@
 						"proportionaltoparent"	"1"
 						"progress"		"0"
 
-						"fgcolor_override"	"CreditsGreen"
+						"fgcolor_override"	"Orange"
 					}
 
 					"Frame"
@@ -427,7 +430,7 @@
 				"ControlName"	"EditablePanel"
 				"fieldName"		"Stats"
 				"xpos"			"0"
-				"ypos"			"5"
+				"ypos"			"0"
 				"wide"			"f0"
 				"tall"			"p0.45"
 				"visible"		"0"
