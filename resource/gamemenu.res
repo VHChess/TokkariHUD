@@ -20,6 +20,11 @@
 		"subimage" "icon_checkbox"
 		"tooltip" "#MMenu_CallVote"
 	}
+	
+	
+
+	
+	
 	"MutePlayersButton"
 	{
 		"label"			""
@@ -44,4 +49,7 @@
 		"subimage"		"glyph_alert"
 		"tooltip"		"#MMenu_ReportPlayer"
 	}
+	
+	
+	
 }

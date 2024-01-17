@@ -3,3 +3,5 @@ Hypnootize - TF2 Icons
 Rurre/Pumkin - Reworked Loadout Screen (Thanks for saving me a massive headache!)
 Huds.tf - Helpful guides, resources and general help and troubleshooting
 Toonhud - For their sourcescheme customize tool
+DistantPeak - Class Selection fixes
+rbjaxter - VTF preloader

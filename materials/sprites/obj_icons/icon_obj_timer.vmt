@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/replay/thumbnails/icon_obj_timer"
+	"$translucent" 1
+}

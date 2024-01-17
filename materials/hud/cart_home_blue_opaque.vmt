@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/replay/thumbnails/cart_home_blue_opaque"
+	"$translucent" 1
+}

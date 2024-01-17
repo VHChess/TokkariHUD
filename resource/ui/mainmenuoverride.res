@@ -1,3 +1,4 @@
+#base "mainmenuoverride_preloading.res"
 "Resource/UI/MainMenuOverride.res"
 {
 	MainMenuOverride
@@ -247,7 +248,7 @@
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot0"
-			"xpos"			"60"
+			"xpos"			"0"
 			"ypos"			"rs1-60"
 			"zpos"			"100"
 			"wide"			"o1"
@@ -268,7 +269,7 @@
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot1"
-			"xpos"			"84"
+			"xpos"			"24"
 			"ypos"			"rs1-60"
 			"zpos"			"100"
 			"wide"			"o1"
@@ -289,7 +290,7 @@
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot2"
-			"xpos"			"108"
+			"xpos"			"48"
 			"ypos"			"rs1-60"
 			"zpos"			"100"
 			"wide"			"o1"
@@ -310,7 +311,7 @@
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot3"
-			"xpos"			"132"
+			"xpos"			"72"
 			"ypos"			"rs1-60"
 			"zpos"			"100"
 			"wide"			"o1"
@@ -331,7 +332,7 @@
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot4"
-			"xpos"			"156"
+			"xpos"			"96"
 			"ypos"			"rs1-60"
 			"zpos"			"100"
 			"wide"			"o1"
@@ -352,7 +353,7 @@
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot5"
-			"xpos"			"180"
+			"xpos"			"120"
 			"ypos"			"rs1-60"
 			"zpos"			"100"
 			"wide"			"o1"
@@ -1573,7 +1574,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
 			"font"			"HudFontSmallBold"
-			"labelText"		"TokkariHUD V1.0"
+			"labelText"		"TokkariHUD V1.1"
 			"textAlignment"	"west"
 			"xpos"			"153"
 			"ypos"			"65"
@@ -1633,7 +1634,7 @@
 			"labelText"		"#TF_Competitive_Friends"
 			"textAlignment"	"west"
 			"xpos"			"6"
-			"ypos"			"58"
+			"ypos"			"33"
 			"wide"			"f0"
 			"tall"			"30"
 			"autoResize"	"0"
@@ -3121,6 +3122,9 @@
 		}			
 	}
 
+
+	
+
 	"QuitButton2"
 	{
 		"ControlName"	"CExImageButton"
@@ -3169,7 +3173,7 @@
 		}			
 	}
 	
-
+	
 
 
 	"TF2SettingsButton"

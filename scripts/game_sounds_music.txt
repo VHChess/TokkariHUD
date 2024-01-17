@@ -1,0 +1,384 @@
+"music.class_menu"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.55"
+	"rndwave"
+	{
+		"wave"		"#*vo/music/class_menu_bg.wav"
+		"wave"		"#*vo/music/class_menu_bg1.wav"
+		"wave"		"#*vo/music/class_menu_bg2.wav"
+	}
+}
+
+"music.class_menu_01"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.55"
+	"wave"		"#*vo/music/class_menu_01.wav"
+}
+
+"music.class_menu_02"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.55"
+	"wave"		"#*vo/music/class_menu_08.wav"
+}
+
+"music.class_menu_03"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.55"
+	"wave"		"#*vo/music/class_menu_02.wav"
+}
+
+"music.class_menu_04"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.55"
+	"wave"		"#*vo/music/class_menu_04.wav"
+}
+
+"music.class_menu_05"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.55"
+	"wave"		"#*vo/music/class_menu_07.wav"
+}
+
+"music.class_menu_06"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.55"
+	"wave"		"#*vo/music/class_menu_05.wav"
+}
+
+"music.class_menu_07"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.55"
+	"wave"		"#*vo/music/class_menu_03.wav"
+}
+
+"music.class_menu_08"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.55"
+	"wave"		"#*vo/music/class_menu_09.wav"
+}
+
+"music.class_menu_09"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.55"
+	"wave"		"#*vo/music/class_menu_06.wav"
+}
+
+"music.mvm_class_menu"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.45"
+	"rndwave"
+	{
+		"wave"		"#*vo/music/mvm_class_menu_bg.wav"
+		"wave"		"#*vo/music/mvm_class_menu_bg1.wav"
+		"wave"		"#*vo/music/mvm_class_menu_bg2.wav"
+	}
+}
+
+"music.mvm_class_menu_01"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.28"
+	"wave"		"#*vo/music/mvm_class_menu_01.wav"
+}
+
+"music.mvm_class_menu_02"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.28"
+	"wave"		"#*vo/music/mvm_class_menu_08.wav"
+}
+
+"music.mvm_class_menu_03"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.28"
+	"wave"		"#*vo/music/mvm_class_menu_02.wav"
+}
+
+"music.mvm_class_menu_04"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.28"
+	"wave"		"#*vo/music/mvm_class_menu_04.wav"
+}
+
+"music.mvm_class_menu_05"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.28"
+	"wave"		"#*vo/music/mvm_class_menu_07.wav"
+}
+
+"music.mvm_class_menu_06"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.28"
+	"wave"		"#*vo/music/mvm_class_menu_05.wav"
+}
+
+"music.mvm_class_menu_07"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.28"
+	"wave"		"#*vo/music/mvm_class_menu_03.wav"
+}
+
+"music.mvm_class_menu_08"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.28"
+	"wave"		"#*vo/music/mvm_class_menu_09.wav"
+}
+
+"music.mvm_class_menu_09"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.28"
+	"wave"		"#*vo/music/mvm_class_menu_06.wav"
+}
+
+"music.mvm_upgrade_machine"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"77"
+	"volume"		"1.00"
+	"wave"		")vo\items\tf_music_upgrade_machine.wav"
+}
+
+"music.mvm_class_select"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.25"
+	"wave"		"#*vo/music/mvm_class_select.wav"
+}
+
+"music.mvm_start_wave"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.48"
+	"wave"		"#*vo/music/mvm_start_wave.wav"
+}
+
+"music.mvm_start_mid_wave"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.58"
+	"wave"		"#*vo/music/mvm_start_mid_wave.wav"
+}
+"music.mvm_start_tank_wave"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.39"
+	"wave"		"#*vo/music/mvm_start_tank_wave.wav"
+}
+
+"music.mvm_start_last_wave"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.58"
+	"wave"		"#*vo/music/mvm_start_last_wave.wav"
+}
+
+"music.mvm_end_wave"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.55"
+	"wave"		"#*vo/music/mvm_end_wave.wav"
+}
+
+"music.mvm_end_tank_wave"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.36"
+	"wave"		"#*vo/music/mvm_end_tank_wave.wav"
+}
+
+"music.mvm_end_mid_wave"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.58"
+	"wave"		"#*vo/music/mvm_end_mid_wave.wav"
+}
+
+"music.mvm_end_last_wave"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.6"
+	"wave"		"#*vo/music/mvm_end_last_wave.wav"
+}
+
+"music.mvm_lost_wave"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.35"
+	"wave"		"#*vo/music/mvm_lost_wave.wav"
+}
+
+"music.fortress_reel"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_110dB"
+	"volume"		"1.0"
+	"rndwave"
+	{
+		"wave"		")*vo/music/fortress_reel.wav"
+		"wave"		")*vo/music/fortress_reel1.wav"
+		"wave"		")*vo/music/fortress_reel2.wav"
+	}
+}
+"music.fortress_reel_intro"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_90dB"
+	"volume"		"1.0"
+	"rndwave"
+	{
+	"wave"		")*vo/music/fortress_reel_intro.wav"
+	"wave"		")*vo/music/fortress_reel_intro_1.wav"
+	"wave"		")*vo/music/fortress_reel_intro_2.wav"
+	}
+}
+"music.fortress_reel_loop"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_90dB"
+	"volume"		"1.0"
+	"rndwave"
+	{
+		"wave"		")*vo/music/fortress_reel_loop.wav"
+		"wave"		")*vo/music/fortress_reel_loop_1.wav"
+		"wave"		")*vo/music/fortress_reel_loop_2.wav"
+	}
+}
+"music.fortress_reel_intro2"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_90dB"
+	"volume"		"1.0"
+	"rndwave"
+	{
+		"wave"		")*vo/music/fortress_reel_intro2.wav"
+		"wave"		")*vo/music/fortress_reel_intro2_1.wav"
+		"wave"		")*vo/music/fortress_reel_intro2_2.wav"
+	}
+}
+
+"music.fortress_reel_loop2"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_90dB"
+	"volume"		"1.0"
+	"rndwave"
+	{
+		"wave"		")*vo/music/fortress_reel_loop2.wav"
+		"wave"		")*vo/music/fortress_reel_loop2_1.wav"
+		"wave"		")*vo/music/fortress_reel_loop2_2.wav"
+	}
+}
+
+"music.conga_loop"
+{
+	 "channel" 			"CHAN_STATIC"
+	 "soundlevel" 			"SNDLVL_75dB"
+	 "volume"		    "1.0"
+	 "rndwave"
+	{
+		"wave" 			  ")*vo/music/conga.wav"
+		"wave" 			  ")*vo/music/conga1.wav"
+		"wave" 			  ")*vo/music/conga2.wav"
+	}
+}
+//If you're reading this... Hi, I guess?
+"music.carousel_of_curses"
+{
+	 "channel" 			"CHAN_STATIC"
+	 "soundlevel" 			"SNDLVL_NONE"
+	 "volume"		    "1.0"
+	 "wave" 			  "#*vo/music/carousel_of_curses.wav"
+}
+"music.kart_football"
+{
+	 "channel" 			"CHAN_STATIC"
+	 "soundlevel" 			"SNDLVL_NONE"
+	 "volume"		    "1.0"
+	 "wave" 			  "#*vo/music/misfortune_teller.wav"
+}
+"music.kart_racetrack"
+{
+	 "channel" 			"CHAN_STATIC"
+	 "soundlevel" 			"SNDLVL_NONE"
+	 "volume"		    "1.0"
+	 "wave" 			  "#*vo/music/misfortune_teller.wav"
+}
+"music.kart_platform"
+{
+	 "channel" 			"CHAN_STATIC"
+	 "soundlevel" 			"SNDLVL_NONE"
+	 "volume"		    "1.0"
+	 "wave" 			  "#*vo/music/bump_in_the_night.wav"
+}
+"music.russian"
+{
+	 "channel" 			"CHAN_STATIC"
+	 "soundlevel" 			"SNDLVL_70dB"
+	 "volume"		    "1.0"
+	 "rndwave"
+	 {
+		"wave" 			  ")*vo/music/cossack_sandvich.wav"
+		"wave" 			  ")*vo/music/cossack_sandvich1.wav"
+		"wave" 			  ")*vo/music/cossack_sandvich2.wav"
+	 }
+}
+"music.aerobic_loop"
+{
+	 "channel" 			"CHAN_STATIC"
+	 "soundlevel" 			"SNDLVL_75dB"
+	 "volume"		    "1.0"
+	 "rndwave"
+	 {
+		"wave" 			  ")*vo/music/mannrobics.wav"
+		"wave" 			  ")*vo/music/mannrobics1.wav"
+		"wave" 			  ")*vo/music/mannrobics2.wav"
+	 }
+}

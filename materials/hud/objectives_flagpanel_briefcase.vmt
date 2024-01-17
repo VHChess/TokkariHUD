@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/replay/thumbnails/objectives_flagpanel_briefcase"
+	"$translucent" 1
+}
