@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/replay/thumbnails/glyph_matchhud"
+	"$translucent" 1
+}

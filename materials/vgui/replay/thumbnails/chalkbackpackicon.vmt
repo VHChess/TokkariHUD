@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/replay/thumbnails/chalkbackpackicon"
+	"$translucent" 1
+}

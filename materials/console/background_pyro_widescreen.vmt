@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "console/background_pyro_widescreen"
+	"$translucent" 1
+}

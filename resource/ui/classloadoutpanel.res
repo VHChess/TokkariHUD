@@ -97,7 +97,7 @@
 		"font"			"HudFontMediumBold"
 		"labelText"		">>"
 		"textAlignment"	"west"
-		"xpos"			"c-290"
+		"xpos"			"c-420"
 		"ypos"			"9"
 		"zpos"			"1"
 		"wide"			"30"
@@ -108,18 +108,38 @@
 		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
 	}
+	
+	
+	"MeetYourClass"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"MeetYourClass"
+		"font"			"ChalkboardTextBig"
+		"labelText"		"Meet Your"
+		"textAlignment"	"west"
+		"xpos"			"c-355"
+		"ypos"			"7"
+		"zpos"			"1"
+		"wide"			"240"
+		"tall"			"40"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+	}
+	
 	"ClassLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"HudFontBiggerBold"
+		"font"			"ChalkboardTextBig"
 		"labelText"		"#ClassBeingEquipped"
 		"textAlignment"	"west"
-		"xpos"			"c-262"
-		"ypos"			"10"
+		"xpos"			"c-170"
+		"ypos"			"7"
 		"zpos"			"1"
 		"wide"			"240"
-		"tall"			"25"
+		"tall"			"40"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -141,6 +161,21 @@
 		"tileVertically" "0"
 	}				
 	
+	"PedastoolImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PedastoolImage"
+		"xpos"			"557"
+		"ypos"			"222"
+		"zpos"			"-3"
+		"wide"			"800"
+		"tall"			"1200"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/pedastool"
+		
+	}				
+	
 	"classmodelpanel"
 	{
 		"ControlName"	"CTFPlayerModelPanel"
@@ -155,7 +190,7 @@
 				
 		"render_texture"	"0"
 		"fov"			"55"
-		"allow_manip"		"1"
+		"allow_rot"		"1"
 		
 						
 		"model"
@@ -276,7 +311,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PassiveAttribsLabel"
-		"font"			"ItemFontAttribLarge"
+		"font"			"ChalkboardText"
 		"xpos"			"c-65"
 		"ypos"			"130"
 		"zpos"			"0"	
@@ -476,11 +511,11 @@
 			"ypos"			"0"
 			"zpos"			"7"
 			"wide"			"52"
-			"tall"			"52"
+			"tall"			"34"
 			"visible"		"1"
 			"enabled"		"1"
 			"scaleImage"	"1"
-			"image"			"/store/store_redteam"
+			"image"			"replay/thumbnails/redbutton"
 			"scaleImage"	"1"
 		}				
 	}
@@ -530,11 +565,11 @@
 			"ypos"			"0"
 			"zpos"			"7"
 			"wide"			"52"
-			"tall"			"52"
+			"tall"			"34"
 			"visible"		"1"
 			"enabled"		"1"
 			"scaleImage"	"1"
-			"image"			"/store/store_blueteam"
+			"image"			"replay/thumbnails/blubutton"
 			"scaleImage"	"1"
 		}				
 	}
@@ -674,6 +709,9 @@
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
+		
+		
+		
 		
 		"TextLabel"
 		{

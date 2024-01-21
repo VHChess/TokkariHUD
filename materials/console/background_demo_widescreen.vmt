@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "console/background_demo_widescreen"
+	"$translucent" 1
+}

@@ -25,6 +25,7 @@ Scheme
 		"GoalOrange"		"255 133 0"
 		"TFOrange"			"145 73 59 255"
 		"Purple"			"137 69 99 255"
+		"Brown"				"82, 44, 7 255"
 
 		"QuestGold"			"208 147 75 255"
 		"HalloweenThemeColor2015_Light"	"238 126 17 255"
@@ -1570,6 +1571,38 @@ Scheme
 				"weight"		"500"
 			}
 		}
+		
+		"ChalkboardTextBig"
+		{
+			"1"
+			{
+				"name"			"TF2 Professor"
+				"tall"			"50" [!$OSX]
+				"tall"			"50" [$OSX]
+				"tall_lodef"	"32"
+				"tall_hidef"	"32"
+				"antialias"		"0"
+				"custom"		"1" [$OSX]
+				"weight"		"500"
+			}
+		}
+		
+		"ChalkboardTextLoadoutPreset"
+		{
+			"1"
+			{
+				"name"			"TF2 Professor"
+				"tall"			"34" [!$OSX]
+				"tall"			"34" [$OSX]
+				"tall_lodef"	"32"
+				"tall_hidef"	"32"
+				"antialias"		"0"
+				"custom"		"1" [$OSX]
+				"weight"		"500"
+			}
+		}
+		
+		
 		"ScoreboardSmallest"
 		{
 			"1"

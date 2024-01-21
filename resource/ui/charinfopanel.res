@@ -58,7 +58,7 @@
 		"visible"		"1"
 		"pinCorner"		"0"
 		"autoResize"	"0"
-		"bgcolor_override"	"46 43 42 255"
+		"bgcolor_override"	"82 44 7 255"
 		"PaintBackgroundType"	"2"
 	}
 	
@@ -69,20 +69,87 @@
 		"fieldName"		"BackgroundFooter"
 		"xpos"			"0"
 		"ypos"			"420"
-		"zpos"			"-3"
+		"zpos"			"-4"
 		"wide"			"f0"
 		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"			"Black"
+		"fillcolor"		"Black"
 		"tileImage"		"1"
 	}				
+	
+	
+	
+	
+	"Footer2"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"Footer2"
+		"xpos"			"0"
+		"ypos"			"380"
+		"zpos"			"-3"
+		"wide"			"1000"
+		"tall"			"120"
+		"visible"		"1"
+		"pinCorner"		"0"
+		"autoResize"	"0"
+		"bgcolor_override"	"82 44 7 255"
+		"PaintBackgroundType"	"2"
+	}
+	
+	"Footer3"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"Footer3"
+		"xpos"			"-3"
+		"ypos"			"453"
+		"zpos"			"-3"
+		"wide"			"1000"
+		"tall"			"9"
+		"visible"		"1"
+		"pinCorner"		"0"
+		"autoResize"	"0"
+		"bgcolor_override"	"23 13 3 200"
+		"PaintBackgroundType"	"2"
+	}
+	
+	
+	"FooterBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"FooterBG"
+		"xpos"			"0"
+		"ypos"			"460"
+		"zpos"			"-2"
+		"wide"			"f0"
+		"tall"			"120"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/footerbg"
+		"tileImage"		"1"
+	}				
+	
+	"HeaderBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"HeaderBG"
+		"xpos"			"0"
+		"ypos"			"-90"
+		"zpos"			"-2"
+		"wide"			"f0"
+		"tall"			"114"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/headerbg"
+		"tileImage"		"1"
+	}				
+	
 	"FooterLine"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"FooterLine"
 		"xpos"			"0"
-		"ypos"			"420"
+		"ypos"			"437"
 		"zpos"			"2"
 		"wide"			"f0"
 		"tall"			"10"
@@ -96,7 +163,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Sheet"
-		"tabxindent"	"80"
+		"tabxindent"	"277"
 		"tabxdelta"		"10"
 		"tabwidth"		"240"
 		"tabheight"		"20"
@@ -121,13 +188,13 @@
 		"tabskv"
 		{
 			"textinsetx"		"40"
-			"font"				"HudFontMediumSmallBold"
+			"font"				"ChalkboardText"
 			"selectedcolor"		"200 187 161 255"
 			"unselectedcolor"	"130 120 104 255"	
 			"defaultBgColor_override"	"46 43 42 255"
 			"paintbackground"	"0"
-			"activeborder_override"	"OutlinedGreyBox"
-			"normalborder_override" "OutlinedDullGreyBox"
+			"activeborder_override"	""
+			"normalborder_override" ""
 		}
 	}
 	
@@ -135,8 +202,8 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"BackButton"
-		"xpos"			"c-295"
-		"ypos"			"437"
+		"xpos"			"c-413"
+		"ypos"			"452"
 		"zpos"			"2"
 		"wide"			"100"
 		"tall"			"25"

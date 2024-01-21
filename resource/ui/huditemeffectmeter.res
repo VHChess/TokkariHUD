@@ -6,9 +6,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"r186"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
+		"xpos_minmode"	"r280"	[$WIN32]
 		"ypos"			"r65"	[$WIN32]
-		"ypos_minmode"	"r54"	[$WIN32]
+		"ypos_minmode"	"r145"	[$WIN32]
 		"xpos"			"r194"	[$X360]
 		"ypos"			"r74"	[$X360]
 		"wide"			"100"
@@ -22,7 +22,9 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"TeamIndicator"
 		"xpos"			"37"
+		"xpos_minmode"	"0"
 		"ypos"			"25"
+		"ypos_minmode"			"25"
 		"zpos"			"1"
 		"wide"			"50"
 		"tall"	 		"20"
