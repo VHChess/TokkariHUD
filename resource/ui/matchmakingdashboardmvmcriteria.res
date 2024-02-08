@@ -7,7 +7,7 @@
 		"fieldName"		"MVMCriteria"
 		"xpos"			"r0"
 		"ypos"			"-5"
-		"zpos"			"1002"
+		"zpos"			"1003"
 		"wide"			"422"
 		"tall"			"f-5"
 		"visible"		"1"
